@@ -13,7 +13,7 @@ def get_coordinates(address, api_key):
     return None, None
 
 # Set up the connection to SQL Server
-conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=10.10.4.100;DATABASE=Hamza;UID=sa;PWD=0000')
+conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=********;DATABASE=Hamza;UID=sa;PWD=0000')
 cursor = conn.cursor()
 
 # Replace with your SQL query
